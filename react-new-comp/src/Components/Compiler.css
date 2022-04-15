@@ -1,0 +1,177 @@
+ 
+.navBar{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    
+}
+.main-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+.second-heading{
+    font-family: 'Poppins', sans-serif;
+    /* position: absolute; */
+    bottom: 540px;
+}
+
+.submit-btn{
+    width: 112px;
+    height: 41px;
+    font-size: 20px;
+    font-weight: 600;
+    /* padding: 8px; */
+    background-color: #0357F3;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.Language{
+    border: 1px solid gray;
+    width: 75px;
+    height: 455px;
+    border-left: none;
+}
+.clogo{
+    /* width: 50px;
+    height: 50px; */
+   
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+/* .clogo:hover{
+    background-color: rgb(117, 117, 243);
+    border: none;
+
+} */
+
+.main-container{
+    display: flex;
+    
+}
+
+.editor-area{
+    display: flex;
+    width: 100%;
+}
+
+.right-panel{
+    position: absolute;
+    margin-left: 500px;
+    width: 608px;
+    height: 455px;
+    border: 0.5px solid rgb(175, 154, 154);
+}
+
+.left-panel>textarea{
+    width: 615px;
+    height: 450px;
+}
+ 
+.right-panel{
+    position: absolute;
+    left: 200px;
+}
+.cpplogo{
+    width: 50px;
+    height: 50px;
+    
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.logo-selected{
+    background-color: rgb(97, 97, 230) !important;
+}
+/* .cpplogo:hover{
+    background-color: rgb(97, 97, 230);
+    cursor: pointer;
+} */
+.plogo{
+    width: 50px;
+    height: 50px;
+    color: aqua;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* .plogo:hover{
+    color: black;
+    border: none;
+    cursor: pointer;
+ 
+} */
+.javalogo{
+    width: 50px;
+    height: 50px;
+    color: aqua;
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/* .javalogo:hover{
+    background-color: rgb(97, 97, 230);
+    border: none;
+    cursor: pointer;
+
+} */
+
+.Runbtn{
+    position: absolute;
+    top: 5px;
+    left: 392px;
+}
+.mode{
+    
+    position: absolute;
+    top: 5px;
+    left:192px;
+     
+
+}
+.mode button{
+    width: 70px;
+    height: 37px;
+    color: white;
+     background-color: rgb(180, 177, 177);
+     border: none;
+     border-radius: 6px;
+
+}
+.mode button:hover{
+    cursor: pointer;
+    mask-border:ah;
+}
+ .bottom-area{
+     /* border: 1px solid gray; */
+     position: absolute;
+     width: 1228px;
+     height: 50px;
+     left: 80px;
+     top: 604px;
+ }
+  .second-panel{
+     position: absolute;
+     
+     left: 635px;
+      
+      
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+ }
